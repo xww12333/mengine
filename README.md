@@ -140,3 +140,6 @@ Tested on a local, average matching speed for transactions is around 200 per sec
 | :---: | :---: |
 | QQ Group | 871358160 |
 | Email | sting_bo@163.com |
+
+## 注： 本项目复制  sting_bo/mengine 主要修改包版本 和命名空间
+
