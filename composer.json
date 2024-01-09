@@ -1,0 +1,30 @@
+{
+    "name": "xww12333/mengine",
+    "description": "Matching Engine For Laravel",
+    "require": {
+        "php": "^8.1",
+        "ext-bcmath": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xww",
+            "email": "xww12333@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xww12333\\Mengine\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xww12333\\Mengine\\MengineServiceProvider"
+            ],
+            "aliases": {
+                "Mengine": "Xww12333\\Mengine\\MengineFacade"
+            }
+        }
+    }
+}
