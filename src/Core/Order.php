@@ -26,9 +26,9 @@ class Order
      */
     public string $transaction;
 
-    public float $volume;
+    public string $volume;
 
-    public float $price;
+    public string $price;
 
     public int $accuracy;
 
